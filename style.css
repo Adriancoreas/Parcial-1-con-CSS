@@ -1,0 +1,269 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .boton-menu {
+    background-color: #ff4800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
+  .contenido-desplegable {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    min-width: 160px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+
+  .contenido-desplegable a {
+    color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .contenido-desplegable a:hover {
+    background-color: #fff5f5;
+    color: black;
+  }
+
+  .menu:hover .contenido-desplegable {
+    display: block;
+  }
+
+  .titulo {
+    background-color: black;
+    border-radius: 15px;
+    border-color: #fff5f5;
+    border-style: double;
+    margin: 10px;
+    border-width: 10px;
+    box-shadow: 50px 5px 50px orangered;
+  }
+
+ @font-face {
+    font-family: "mifuente";
+    src: url(SpecialGothicExpandedOne-Regular.ttf)
+ }
+
+ @font-face {
+    font-family: "mifuente2";
+    src: url(AbrilFatface-Regular.ttf);
+ }
+
+  .titulo h1 {
+    color: #ff4800;
+    padding: 15px;
+    font-family: "mifuente";
+  }
+
+  .titulo p {
+    color:#fff5f5;
+    padding: 10px;
+    font-family: "mifuente2";
+  }
+
+section {
+    border-color: #fff5f5;
+    border-style: double;
+    border-width: 15px;
+    border-radius: 25px;
+    margin: 30px;
+    box-shadow: 5px 5px 50px #ff4800;
+}
+
+
+.historia {
+    border-color: orangered;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 25px;
+    box-shadow: 5px 10px 5px 5px #ffffff;
+}
+
+#HI {
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.historia h5 {
+    color: #ff4800;
+    margin: 10px;
+    font-size: 25px
+}
+
+.historia p {
+    color: #fff5f5;
+    margin: 10px;
+}
+
+.ubicacion {
+    border-color: orangered;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 25px;
+    box-shadow: 5px 10px 5px 5px #ffffff;
+}
+
+
+#UB {
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.ubicacion h5 {
+    color: #ff4800;
+    margin: 10px;
+    font-size: 25px
+}
+
+.ubicacion p {
+    color: #fff5f5;
+    margin: 10px;
+}
+
+.actividades {
+    border-color: orangered;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 25px;
+    box-shadow: 5px 10px 5px 5px #ffffff;
+}
+
+
+#AC {
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.actividades h5 {
+    color: #ff4800;
+    margin: 10px;
+    font-size: 25px
+}
+
+.actividades p {
+    color: #fff5f5;
+    margin: 10px;
+}
+
+.galeria {
+    border-color: orangered;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 25px;
+    box-shadow: 5px 10px 5px 5px #ffffff;
+}
+
+
+#GA {
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.galeria img {
+    width: 450px;
+    height: 250px;
+    border-radius: 125px;
+    border-style: double;
+    border-color: aqua;
+    border-width: 5px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px #3700ff;
+}
+
+.info {
+    border-color: orangered;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px 5px white;
+}
+
+#IN {
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.info a {
+    color: aliceblue;
+}
+
+.tabla {
+    border-color: orangered;
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 25px;
+    box-shadow: 5px 10px 5px 5px #ffffff;
+}
+
+.tabla h4{
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+ul {
+    border-color: rgb(98, 0, 255);
+    border-style: dashed;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+li {
+    color: #ff4800;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #ff4800;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#CO {
+    color: #fff5f5;
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+}
+
+footer p {
+    color: #fff5f5;
+    text-align: center;
+    
+}
